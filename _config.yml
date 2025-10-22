@@ -13,25 +13,29 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+title: "Noemi Montobbio"
+# NOTE: Quotes ("..." or '...') are only there to protect YAML from misinterpreting something as a command or variable
+subtitle: "Researcher @ Department of Health Sciences | University of Genoa | Genoa, Italy"
+description: "Academic homepage for Dr. Noemi Montobbio — research, teaching, and software projects."
+name: "Noemi Montobbio"
+email: "noemi.montobbio@unige.it"
+#twitter_username: "NMontobbio"
+github_username: "noemimontobbio"
+url: "https://noemimontobbio.github.io"
+baseurl: "" # Leave empty for GitHub Pages
+
+# Theme setup
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # try 'air', 'aqua', 'contrast', etc.
+#search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#timezone: CET? # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -57,55 +61,87 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Site structure
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Noemi Montobbio"
+  avatar : "/assets/images/2023-07_fotocv.jpg"
+  bio    : "Applied mathematician, working on computational modelling in neurology, psychology, and cognitive neuroscience."
+  location: "Department of Health Sciences, University of Genoa, Genoa, Italy"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:noemi.montobbio@unige.it"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=IgoL1j8AAAAJ&hl=en"
+    - label: "PubMed"
+      icon: "fas fa-book"
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=Montobbio+Noemi"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0003-0302-393X"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      icon: "fab fa-github"
+      url: "https://github.com/noemimontobbio"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/noemi-montobbio-294097181/"
+    - label: "Twitter"
+      icon: "fab fa-twitter-square"
+      url: "https://x.com/NMontobbio"
 
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:noemi.montobbio@unige.it"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/noemi-montobbio-294097181/"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      icon: "fab fa-twitter-square"
+      url: "https://x.com/NMontobbio"
 
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+      read_time: false
+      comments: false
+      share: false
+  ## _posts
+  #- scope:
+  #    path: "_posts"
+  #    type: posts
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    read_time: true
+  #    comments: true
+  #    share: true
+  #    related: true
+
+# Navigation bar links (adjust to your pages)
+nav:
+  - title: "About"
+    url: /about/
+  - title: "Research & Projects"
+    url: /projects/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Software"
+    url: /software/
+  - title: "Links"
+    url: /links/
 
 category_archive:
   type: liquid
