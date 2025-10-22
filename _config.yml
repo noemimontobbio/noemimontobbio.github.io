@@ -32,7 +32,7 @@ minimal_mistakes_skin: "default" # try 'air', 'aqua', 'contrast', etc.
 # Build settings
 markdown: kramdown
 
-# Outputting (disable if not using posts)
+# Outputting (disable if not blogging)
 #permalink: /:categories/:title/
 #paginate: 5 # amount of posts to show
 #paginate_path: /page:num/
@@ -118,9 +118,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
-      comments: false
-      share: false
       show_date: false
       show_prev_next: false
   ## _posts
