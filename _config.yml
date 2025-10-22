@@ -31,11 +31,11 @@ minimal_mistakes_skin: "default" # try 'air', 'aqua', 'contrast', etc.
 
 # Build settings
 markdown: kramdown
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-#timezone: CET? # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Outputting (disable if not using posts)
+#permalink: /:categories/:title/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 
 include:
   - _pages
@@ -66,6 +66,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+
+# Use icons from the the Academicons set ("ai")
+academicons: true
 
 author:
   name   : "Noemi Montobbio"
@@ -118,6 +121,8 @@ defaults:
       read_time: false
       comments: false
       share: false
+      show_date: false
+      show_prev_next: false
   ## _posts
   #- scope:
   #    path: "_posts"

@@ -1,5 +1,5 @@
 ---
 permalink: /projects/
-title: "Research and Projects"
+title: "Research & Projects"
 layout: single
 ---

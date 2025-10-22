@@ -1,9 +1,11 @@
 main:
   - title: "Home"
     url: /
-  - title: "Research and Projects"
+  - title: "Research & Projects"
     url: /projects/
   - title: "Software"
     url: /software/
-  - title: "Links"
-    url: /links/
+  - title: "Teaching"
+    url: /teaching/
+  #- title: "Links"
+  #  url: /links/
