@@ -4,4 +4,4 @@ layout: single
 permalink: /
 ---
 
-{% include_relative about.md %}
+{% include_relative _pages/about.md %}
