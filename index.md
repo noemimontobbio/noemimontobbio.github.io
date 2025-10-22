@@ -4,4 +4,4 @@ layout: single
 permalink: /
 ---
 
-{% include_relative _pages/about.md %}
+Academic homepage for Dr. Noemi Montobbio — research, teaching, and software projects.

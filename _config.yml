@@ -71,7 +71,7 @@ author:
   name   : "Noemi Montobbio"
   avatar : "/assets/images/2023-07_fotocv.jpg"
   bio    : "Applied mathematician, working on computational modelling in neurology, psychology, and cognitive neuroscience."
-  location: "Department of Health Sciences, University of Genoa, Genoa, Italy"
+  location: "Genoa, Italy"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
@@ -129,19 +129,6 @@ defaults:
   #    comments: true
   #    share: true
   #    related: true
-
-# Navigation bar links (adjust to your pages)
-nav:
-  - title: "About"
-    url: /about/
-  - title: "Research & Projects"
-    url: /projects/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "Software"
-    url: /software/
-  - title: "Links"
-    url: /links/
 
 category_archive:
   type: liquid

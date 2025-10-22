@@ -1,5 +1,5 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /teaching/
+title: "Teaching"
 layout: single
 ---

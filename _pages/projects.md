@@ -1,5 +1,5 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /projects/
+title: "Research and Projects"
 layout: single
 ---

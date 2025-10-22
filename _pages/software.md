@@ -1,5 +1,5 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /software/
+title: "Software"
 layout: single
 ---
