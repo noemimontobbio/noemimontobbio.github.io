@@ -76,7 +76,7 @@ author:
   bio    : "Applied mathematician, working on computational modelling in neurology, psychology, and cognitive neuroscience."
   location: "Genoa, Italy"
   links:
-    - label: "Email"
+    - label: "noemi.montobbio@unige.it"
       icon: "fas fa-envelope"
       url: "mailto:noemi.montobbio@unige.it"
     - label: "Google Scholar"
@@ -138,3 +138,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+head_scripts:
+  - https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css
+
