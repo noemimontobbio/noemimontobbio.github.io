@@ -4,4 +4,4 @@ layout: single
 permalink: /
 ---
 
-Academic homepage for Dr. Noemi Montobbio — research, teaching, and software projects.
+Academic homepage for Dr. Noemi Montobbio — [research](/projects/), [teaching](/teaching/), and [software](/software/) projects.
