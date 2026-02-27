@@ -2,6 +2,7 @@
 permalink: /teaching/
 title: "Teaching"
 layout: single
+author_profile: true
 ---
 
 ## Insegnamenti presso Università degli Studi di Genova
