@@ -34,7 +34,7 @@ markdown: kramdown
 
 # Outputting (disable if not blogging)
 #permalink: /:categories/:title/
-#paginate: none  #paginate: 5 # amount of posts to show
+paginate: none  #paginate: 5 # amount of posts to show
 #paginate_path: /page:num/
 
 include:
