@@ -1,0 +1,10 @@
+---
+---
+
+@import "minimal-mistakes";
+
+/* Remove previous/next page navigation */
+.page__pagination,
+.pagination {
+  display: none !important;
+}
