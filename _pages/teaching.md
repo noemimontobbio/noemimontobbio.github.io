@@ -4,7 +4,7 @@ title: "Teaching"
 layout: single
 ---
 
-## Insegnamenti presso Università di Genova
+## Insegnamenti presso Università degli Studi di Genova
 
 Homepage [Rubrica UniGe](https://rubrica.unige.it/personale/UkFHW1xs)
 

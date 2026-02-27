@@ -3,9 +3,9 @@ main:
     url: /
   - title: "Research & Projects"
     url: /projects/
-  - title: "Software"
-    url: /software/
+#  - title: "Software"
+#    url: /software/
   - title: "Teaching"
     url: /teaching/
-  #- title: "Links"
-  #  url: /links/
+#  - title: "Links"
+#    url: /links/
